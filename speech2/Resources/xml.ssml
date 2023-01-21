@@ -1,0 +1,7 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+<voice name="en-US-NancyNeural"><prosody rate="0%" pitch="0%">You're saying this only to make me go.</prosody></voice>
+<voice name="en-US-TonyNeural"><prosody rate="0%" pitch="0%">I'm saying it because it's true. Inside of us we both know you belong with Victor. You're part of his work, the thing that keeps him going. If that plane leaves the ground and you're not with him, you'll regret it.</prosody></voice>
+<voice name="en-US-NancyNeural"><prosody rate="0%" pitch="0%">No.</prosody></voice>
+<voice name="en-US-TonyNeural"><prosody rate="0%" pitch="0%">Maybe not today, maybe not tomorrow, but soon, and for the rest of your life.</prosody></voice>
+<voice name="en-US-NancyNeural"><prosody rate="0%" pitch="0%">But what about us?</prosody></voice>
+</speak>

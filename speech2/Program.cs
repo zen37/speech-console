@@ -58,17 +58,20 @@ class Program
 
             var assembly = Assembly.GetExecutingAssembly();
             var resourceManager = new ResourceManager("speech2.Resource1", assembly);
-            var file = resourceManager.GetString("text");
+            //var file = resourceManager.GetString("text");
+            //var speechSynthesisResult = await speechSynthesizer.SpeakTextAsync(file);
             //   Console.WriteLine(resource);
 
+            var file = resourceManager.GetString("ssml");
+            var speechSynthesisResult = await speechSynthesizer.SpeakSsmlAsync(file);
 
             // string fileName = @"..\text.txt";
             // string text = File.ReadAllText(file);
 
-            var speechSynthesisResult = await speechSynthesizer.SpeakTextAsync(file);
-           // var speechSynthesisResult = await speechSynthesizer.SpeakSsmlAsync(file);
 
-           OutputSpeechSynthesisResult(speechSynthesisResult, file);
+            // var speechSynthesisResult = await speechSynthesizer.SpeakSsmlAsync(file);
+
+            OutputSpeechSynthesisResult(speechSynthesisResult, file);
         }
 
         Console.WriteLine("Press any key to exit...");

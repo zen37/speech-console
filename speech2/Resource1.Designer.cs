@@ -61,6 +61,17 @@ namespace speech2 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &lt;speak xmlns=&quot;http://www.w3.org/2001/10/synthesis&quot; xmlns:mstts=&quot;http://www.w3.org/2001/mstts&quot; xmlns:emo=&quot;http://www.w3.org/2009/10/emotionml&quot; version=&quot;1.0&quot; xml:lang=&quot;en-US&quot;&gt;
+        ///&lt;voice name=&quot;en-US-NancyNeural&quot;&gt;&lt;prosody rate=&quot;0%&quot; pitch=&quot;0%&quot;&gt;You&apos;re saying this only to make me go.&lt;/prosody&gt;&lt;/voice&gt;
+        ///&lt;voice name=&quot;en-US-TonyNeural&quot;&gt;&lt;prosody rate=&quot;0%&quot; pitch=&quot;0%&quot;&gt;I&apos;m saying it because it&apos;s true. Inside of us we both know you belong with Victor. You&apos;re part of his work, the thing that keeps him going. If that plane le [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string ssml {
+            get {
+                return ResourceManager.GetString("ssml", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to You&apos;re saying this only to make me go..
         /// </summary>
         internal static string text {
