@@ -19,9 +19,6 @@ class Program
     {
         var speechConfig = SpeechConfig.FromSubscription(speechKey, speechRegion);
 
-        // The language of the voice that speaks.
-        speechConfig.SpeechSynthesisVoiceName = "en-US-JennyNeural";
-
         // SSML to synthesize.
       //  string ssml = "<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'><voice name='en-US-JennyNeural'><prosody rate='1.0'>Hello, world!</prosody></voice></speak>";
         var assembly = Assembly.GetExecutingAssembly();
