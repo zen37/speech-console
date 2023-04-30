@@ -124,4 +124,7 @@
   <data name="text" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\text.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;iso-8859-1</value>
   </data>
+  <data name="xml2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\xml2.xml;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

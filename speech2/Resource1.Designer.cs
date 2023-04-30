@@ -79,5 +79,18 @@ namespace speech2 {
                 return ResourceManager.GetString("text", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &lt;speak xmlns=&quot;http://www.w3.org/2001/10/synthesis&quot; xmlns:mstts=&quot;http://www.w3.org/2001/mstts&quot; xmlns:emo=&quot;http://www.w3.org/2009/10/emotionml&quot; version=&quot;1.0&quot; xml:lang=&quot;en-US&quot;&gt;
+        ///&lt;voice name=&quot;en-US-TonyNeural&quot;&gt;&lt;prosody rate=&quot;0%&quot;&gt;Pardon, pardon, Monsieur, pardon Madame, have you not heard?&lt;/prosody&gt;&lt;/voice&gt;
+        ///&lt;voice name=&quot;en-US-NancyNeural&quot;&gt;&lt;prosody rate=&quot;0%&quot;&gt;We hear very little, and we understand even less.&lt;/prosody&gt;&lt;/voice&gt;
+        ///&lt;voice name=&quot;en-US-TonyNeural&quot;&gt;
+        ///&lt;prosody rate=&quot;0%&quot;&gt;Unfortunately, along with these unh [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string xml2 {
+            get {
+                return ResourceManager.GetString("xml2", resourceCulture);
+            }
+        }
     }
 }
